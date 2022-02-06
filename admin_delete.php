@@ -12,7 +12,7 @@
 		$select_multiple_id = $_POST['delete_record_id'];
 		$user_id = implode(',', $select_multiple_id);
 
-			 echo "<pre>";
+			// echo "<pre>";
 			// var_dump($user_id);
 			// echo "</pre>";
 		// echo $user_id;
